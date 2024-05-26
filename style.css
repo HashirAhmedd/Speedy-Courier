@@ -1,0 +1,116 @@
+
+
+/* Import Google Font */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(14, 14, 14);
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 0;
+    border: none;
+    font-size: 1.1em;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    height: 100vh;
+    background: rgb(14, 14, 14); /* Background color */
+    position: relative;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+
+
+/* Card Styles */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap;
+}
+
+.cards .card {
+    width: 18rem;
+    margin-bottom: 3em;
+}
+
+.cards .card img {
+    height: 150px; 
+    object-fit: cover; 
+}
+
+.cards .card-body {
+    background-color: #272525;
+
+}
+
+
+
+
+
+
+.spNavbar{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2em;
+    margin-bottom: 5em;
+}   
+
+section.sendForm{
+    width: 80%;
+    padding-left: 20%;
+}
+
+form div{
+    margin-bottom: 2em;
+}
+
+section.priceTable{
+    width: 80%;
+    padding-left: 20%;
+    margin-top: 7%;
+
+}
+
+
+.table{
+    color: white;
+    text-align: center;
+
+
+}
+.table th{
+    /* background-color: rgb(130, 132, 133 , 0.1); */
+    background-color: rgb(0, 215, 211,0.1);
+ 
+}
+
+
+section.form{
+    width: 80%;
+}
+
+section.form input{
+    width: 30em;
+}
