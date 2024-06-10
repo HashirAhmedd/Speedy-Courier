@@ -13,8 +13,8 @@ app.use(express.static('public'));
 
 // Oracle DB connection configuration
 const dbconfig = {
-    user: 'system',
-    password: '1234',
+    user: '',
+    password: '',
     connectionString: 'localhost:1522/orcl'
 };
 
