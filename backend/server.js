@@ -13,9 +13,9 @@ app.use(express.static('public'));
 
 // Oracle DB connection configuration
 const dbconfig = {
-    user: 'system',
-    password: '1234',
-    connectionString: 'localhost:1522/orcl'
+    user: 'your database username',
+    password: 'your database password',
+    connectionString: 'connection string'
 };
 
 async function insertParcelData(data) {
