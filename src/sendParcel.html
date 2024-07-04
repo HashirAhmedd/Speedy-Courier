@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="spNavbar">
+    <h1 class="sp display-4" >
+        Send Parcel
+    </h1>
+</div>
+
+<section class="sendForm" id="parcelForm">
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="senderName" class="form-label">Sender Name</label>
+            <input type="text" class="form-control" id="senderName" placeholder="Sender Name">
+        </div>
+        <div class="col-md-6">
+            <label for="senderPno" class="form-label">Sender Phone Number</label>
+            <input type="tel" class="form-control" id="senderPno" placeholder="Sender Phone Number">
+        </div>
+        <div class="col-md-6">
+            <label for="senderEmail" class="form-label">Sender Email</label>
+            <input type="email" class="form-control" id="senderEmail" placeholder="Sender Email">
+        </div>
+        <div class="col-md-6">
+            <label for="senderAddress" class="form-label">Sender Address</label>
+            <input type="text" class="form-control" id="senderAddress" placeholder="Sender Address">
+        </div>
+        <div class="col-md-6">
+            <label for="receiverAddress" class="form-label">Receiver Address</label>
+            <input type="text" class="form-control" id="receiverAddress" placeholder="Receiver Address">
+        </div>
+        <div class="col-md-6">
+            <label for="receiverPno" class="form-label">Receiver Phone Number</label>
+            <input type="tel" class="form-control" id="receiverPno" placeholder="Receiver Phone Number">
+        </div>
+        <div class="col-md-6">
+            <label for="parcelName" class="form-label">Parcel Name/Type</label>
+            <input type="text" class="form-control" id="parcelName" placeholder="Parcel Name/Type">
+        </div>
+        <div class="col-md-6">
+            <label for="parcelWeight" class="form-label">Parcel Weight</label>
+            <select class="form-control" id="parcelWeight">
+                <option value="null">---</option>
+                <option value="below500">Below 500 grams</option>
+                <option value="500to5kg">500 grams - 5 kg</option>
+                <option value="6to10kg">6 kg - 10 kg</option>
+                <option value="11to30kg">11 kg - 30 kg</option>
+                <option value="31to50kg">31 kg - 50 kg</option>
+                <option value="above50kg">Above 50 kg</option>
+            </select>
+        </div>
+        
+        <div class="col-md-6">
+            <label for="date" class="form-label">Date</label>
+            <input type="date" class="form-control" id="date">
+        </div>
+
+        <div class="col-md-6">
+          <label for="emp" class="form-label">Employee No:</label>
+          <input type="number" class="form-control" name="emp" id="emp">
+        </div>
+
+        <div class="col-12">
+            <button type="submit" id="sendParcelSubmit" class="btn btn-primary">Send Parcel</button>
+        </div>
+    </form>
+</section>
+
+
+<script src="App.js"></script>
+    
+</body>
+</html>

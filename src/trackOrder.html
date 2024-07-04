@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+    <title>Tracking</title>
+</head>
+<body>
+
+    <div class="spNavbar">
+        <h1 class="sp display-4">Track Your Order</h1>
+    </div>
+    
+
+    <section class=" form trackForm ml-5">
+        <form>
+            <div class="mb-3 ">
+              <label for="orderID" class="form-label">Enter Order ID</label>
+              <div>
+                <div class="d-flex align-items-center dv">
+              <input type="number" class="form-control" id="orderID">
+              <button type="submit" class="btn btn-primary ml-2 clearBtn">Clear</button>
+            </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary trackOrder" id="FindOrder">Find Order</button>
+          </form>
+
+
+
+    </section>
+    <script src="App.js"></script>
+</body>
+</html>
